@@ -1,6 +1,6 @@
 # AuthifyJava
 
-AuthifyJava é um módulo externo desenvolvido em **Java 17 + Maven** que fornece suporte a diversos métodos de autenticação, como login por senha, códigos via e-mail ou telefone, e autenticação em múltiplas etapas. Ele foi projetado para ser desacoplado e de fácil integração em aplicações Java, garantindo segurança e flexibilidade no controle de acesso.
+AuthifyJava é um módulo externo desenvolvido em **Java 17 + Maven** que fornece suporte a autenticação por login por senha. Ele foi projetado para ser desacoplado e de fácil integração em aplicações Java, garantindo segurança e flexibilidade no controle de acesso.
 
 ## Recursos
 - **Autenticação por senha** (básica, sem criptografia)
