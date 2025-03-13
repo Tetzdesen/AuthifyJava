@@ -15,13 +15,16 @@ public class AutenticadorSenha extends MetodoAutenticacao {
     }
 
     public void cadastrarUsuario(String email, String senha) {
-        if(email.isEmpty() || senha.isEmpty()){
+        if (email.isEmpty() || senha.isEmpty()) {
             throw new IllegalArgumentException("Dados inválidos ou vazios: " + "Email: " + email + " e Senha: " + senha);
         }
         usuarios.put(email, senha);
     }
-    
+
     public void removerUsuario(String email, String senha) {
+        if (email.isEmpty() || senha.isEmpty()) {
+            throw new IllegalArgumentException("Dados inválidos ou vazios: " + "Email: " + email + " e Senha: " + senha);
+        }
         usuarios.remove(email, senha);
     }
 
