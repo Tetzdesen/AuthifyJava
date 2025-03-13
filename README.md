@@ -5,7 +5,6 @@ AuthifyJava é um módulo externo desenvolvido em **Java 17 + Maven** que fornec
 ## Recursos
 - **Autenticação por senha** (básica, sem criptografia)
 - **Modularidade** para integração fácil via **JitPack**
-- **Padrão Adapter e Service** para flexibilidade de implementação
 
 ## Features
 
@@ -54,9 +53,9 @@ if (resultado.isSucesso()) {
 }
 ```
 
-### Adaptação para Repositório de Usuários
+### Adaptação
 
-Para integrar com um banco de dados ou repositório de usuários, crie um **Adapter** e um **Service** que implementam a lógica de recuperação de dados.
+Para integrar com seu projeto, crie um **Adapter** e um **Service** que implementam a lógica de autenticação, opcionalmente para recuperação de dados, utilize um banco de dados ou repositório de usuários em seu projeto.
 
 ## Contribuição
 
